@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans:ital@1&family=Playfair+Display&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+ 
+}
+
+.top {
+  background-image: url(/img/dark-hero-1.jpg);
+
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 155vh;
+}
+
+.topA {
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.homel {
+  color: white;
+  border-bottom: 3px solid rgb(13, 168, 188);
+  width: 50px;
+}
+
+/* .navbar-nav.nav-item.nav-link {
+  color: white;
+} */
+
+.navbar ul li a {
+  color: white !important;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  color: rgb(13, 168, 188) !important;
+
+}
+
+.icon {
+  color: rgb(0, 225, 255);
+  margin-left: 60%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-top: 3px solid rgb(13, 168, 188);
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+
+  color: rgb(13, 168, 188);
+}
+
+.dropbtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  color: white;
+}
+
+.dropbtn a:hover {
+  color: rgb(13, 168, 188);
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.ttt {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: white;
+}
+
+.ttt:hover {
+  color: rgb(13, 168, 188);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dbtn {
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(13, 168, 188);
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dbtn:hover {
+  background-color: dodgerblue;
+
+}
+
+.vbtn {
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(249, 87, 89);
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vbtn:hover {
+  background-color: #f60d10;
+}
+
+.meu {
+  background-color: rgba(255, 255, 255, 0.267);
+  border: 0;
+  border-radius: 3px
+}
+
+.meu::placeholder {
+  color: white;
+}
+
+.borderr {
+  background-color: rgb(13, 168, 188);
+  width: 20%;
+  height: 5px;
+}
+
+#cars {
+  background-color: rgba(255, 255, 255, 0.267);
+  border: 0;
+  border-radius: 3px;
+  width: 334px;
+  height: 40px;
+  color: white;
+
+}
+
+.bookbtn {
+  margin-left: 69%;
+  border: 0;
+  background-color: rgb(1, 225, 255);
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.bookbtn:hover {
+  background-color: aqua;
+
+
+}
+
+.proffessional {
+  background-color: #0db4ca;
+  width: 310px;
+
+  text-align: center;
+  color: white;
+}
+
+.Affordable {
+  background-color: #0da2b5;
+  width: 310px;
+
+  text-align: center;
+  color: white;
+}
+
+.Great {
+  background-color: #0db4ca;
+  width: 310px;
+
+  text-align: center;
+  color: white;
+}
+
+.Consultations {
+  background-color: #0c96a8;
+  width: 310px;
+
+  text-align: center;
+  color: white;
+}
+
+.boorder {
+  background-color: red;
+  width: 25%;
+  height: 2px;
+  margin-left: 40px;
+}
+
+.boorrder {
+  background-color: red;
+  width: 25%;
+  height: 2px;
+  margin-left: 55px;
+}
+
+.rrbtn {
+  border: 0;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#carss {
+  padding: 11px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: bold;
+}
+
+#carss:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.boxxx {
+  background-color: #0da8bc;
+  color: white;
+}
+
+.boobtn {
+  border: 0;
+  background-color: rgb(249, 87, 89);
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.boobtn:hover {
+  background-color: #0db4ca00;
+
+}
+
+.profile {
+  background-color: #e6e8e7;
+
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cheif {
+  background-image: url(/img/pic-team-1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 267px;
+  height: 297px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.magnify {
+  color: #0db4ca;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255, 0.705);
+  width: 267px;
+  height: 400px;
+  text-align: center;
+  display: none;
+
+}
+
+.glass i {
+  margin-top: 125px;
+}
+
+.cheif:hover .magnify {
+  display: block;
+}
+
+.scalpel {
+  background-color: #0db4ca;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -106%;
+  padding: 10px;
+  margin-left: 27px;
+}
+
+.descrip {
+  background-color: #f1f1f1;
+  background-position: center;
+  background-size: cover;
+  width: 267px;
+  height: 250px;
+ 
+}
+.readmorebtn{
+border: 2px solid #0db4ca;
+border-radius:4px ;
+color: #0db4ca;
+font-size: 12px;
+}
+.readmorebtn:hover{
+  background-color: #0db4ca;
+  color: white;
+}
+
+.cosmetic{
+  background-image: url(/img/pic-team-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 267px;
+  height: 297px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cosmetic:hover .magnify {
+  display: block;
+}
+.otolaryngology{
+  background-image: url(/img/pic-team-3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 267px;
+  height: 297px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.otolaryngology:hover .magnify {
+  display: block;
+}
+.neurosurgery{
+  background-image: url(/img/pic-team-4.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 267px;
+  height: 297px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.neurosurgery:hover .magnify {
+  display: block;
+}
+.votosbtn{
+  margin-top: 20%;
+  margin-left: 40%;
+  padding: 10px;
+  background-color: #0c96a8;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.votosbtn:hover{
+  background-color: #085761;
+}
