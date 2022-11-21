@@ -554,3 +554,26 @@ color: white;
   text-align: center;
   color: white;
 }
+
+
+
+.topG{
+  background-image: url(/img/hero-3.jpg);
+  
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 130vh;
+}
+.votsbtn{
+  width: 25%;
+  border: 0;
+  background-color: #0c96a8;
+  color: white;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+.votsbtn:hover{
+  background-color: #085761;
+
+}
