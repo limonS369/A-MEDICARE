@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans:ital@1&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans:ital@1&family=Playfair+Display&display=swap');
 * {
   margin: 0;
   padding: 0;
   font-family: 'Barlow', sans-serif;
- 
+
 }
 
 .top {
@@ -309,20 +310,33 @@
   background-size: cover;
   width: 267px;
   height: 250px;
- 
+
 }
-.readmorebtn{
-border: 2px solid #0db4ca;
-border-radius:4px ;
-color: #0db4ca;
-font-size: 12px;
+
+.readmorebtn {
+  border: 2px solid #0db4ca;
+  border-radius: 4px;
+  color: #0db4ca;
+  font-size: 12px;
 }
+/* .redmorebtn{
+  border: 2px solid #0db4ca;
+  border-radius: 4px;
+  color: #0db4ca;
+  font-size: 12px;
+}
+.redmorebtn:hover{
+  background-color: #0db4ca;
+  color: white;
+} */
+  
+
 .readmorebtn:hover{
   background-color: #0db4ca;
   color: white;
 }
 
-.cosmetic{
+.cosmetic {
   background-image: url(/img/pic-team-2.jpg);
   background-position: center;
   background-size: cover;
@@ -330,10 +344,12 @@ font-size: 12px;
   height: 297px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .cosmetic:hover .magnify {
   display: block;
 }
-.otolaryngology{
+
+.otolaryngology {
   background-image: url(/img/pic-team-3.jpg);
   background-position: center;
   background-size: cover;
@@ -341,10 +357,12 @@ font-size: 12px;
   height: 297px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .otolaryngology:hover .magnify {
   display: block;
 }
-.neurosurgery{
+
+.neurosurgery {
   background-image: url(/img/pic-team-4.jpg);
   background-position: center;
   background-size: cover;
@@ -352,10 +370,12 @@ font-size: 12px;
   height: 297px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .neurosurgery:hover .magnify {
   display: block;
 }
-.votosbtn{
+
+.votosbtn {
   margin-top: 20%;
   margin-left: 40%;
   padding: 10px;
@@ -365,6 +385,172 @@ font-size: 12px;
   font-size: 14px;
   border-radius: 4px;
 }
-.votosbtn:hover{
+
+.votosbtn:hover {
   background-color: #085761;
+}
+
+.korean {
+  background-image: url(/img/x540.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 295px;
+  height: 295px;
+}
+
+.ghana{
+  background-image: url(/img/s540.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 295px;
+  height: 295px;
+}
+.wales{
+  background-image: url(/img/h540.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 295px;
+  height: 295px;
+}
+.fiji{
+  background-image: url(/img/d540.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 295px;
+  height: 295px;
+}
+
+.nam {
+  font-family: 'Playfair Display', serif;
+}
+
+.japan {
+  background-color: rgba(255, 255, 255, 0.76);
+  width: 295px;
+  height: 295px;
+  padding-left: 25px;
+  padding-top: 60px;
+  
+  display: none;
+  color: rgb(139, 139, 139);
+}
+.korean:hover .japan{
+  display: block;
+  transition: 0.5s ease;
+}
+.ghana:hover .japan{
+  display: block;
+}
+.wales:hover .japan{
+  display: block;
+}
+.fiji:hover .japan{
+  display: block;
+}
+
+.mgglass {
+  font-size: 35px;
+  color: #0da8bc;
+}
+.md:hover{
+  color: #0da8bc;
+}
+.boxx {
+  background-color: #f95759;
+  color: white;
+}
+
+.boobtn {
+  border: 0;
+  background-color: rgb(249, 87, 89);
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.boobtn:hover {
+  background-color: #0db4ca00;
+
+}
+
+footer{
+  background-color: #0db4ca;
+overflow: hidden;
+margin-top: -10px;
+}
+.h{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: white;
+}
+.fst{
+  border-right: 1px solid rgba(255, 255, 255, 0.24);
+  color: white;
+}
+.mai{
+  border-top:1px solid rgba(255, 255, 255, 0.274);
+
+}
+.ii i{
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color:black;
+
+
+}
+.ii :hover{
+  background-color: #0da2b5;
+color: white;
+}
+.scn{
+  border-right: 1px solid rgba(255, 255, 255, 0.24);
+  color: white;
+}
+.ulli ul li{
+  list-style: none;
+}
+.ulli ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+.ulli ul li a:hover{
+  color: #085761;
+}
+.inp{
+  background-color: rgba(245, 252, 255, 0.295);
+  border: 0;
+  width: 245px;
+  border-radius: 4px;
+  padding: 8px 30px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.sbbtn{
+  background-color: #f95759;;
+  border: 0;
+  width: 245px;
+  border-radius: 4px;
+  padding: 8px 30px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.sbbtn:hover{
+  background-color: #03424b;
+  color: white;
+}
+::placeholder{
+  color: white;
+}
+.cpr{
+  background-color: #085761;
+  text-align: center;
+  color: white;
 }
